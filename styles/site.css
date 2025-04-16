@@ -4,12 +4,19 @@ body {
 }
 
 section {
-    margin-bottom: 3em;
+    margin-bottom: 3rem;
 }
 
 body {
     margin: 0;
 }
+
+/* hero section */
+.hero-section,
+footer {
+    background-color: #1F2937;
+}
+
 
 /* random info section */
 .flexbox {
@@ -48,6 +55,7 @@ body {
     text-align: center;
 }
 
+/* quote section */
 .quote-section {
     padding: 2rem 0;
     background-color: #E5E7EB;
@@ -67,4 +75,41 @@ body {
 .blockquote-class {
     width: 50%;
     margin: 0 auto;
+}
+
+.call-section {
+    display: flex;
+    flex-direction: row;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.call-section h4 {
+    margin-bottom: 0;
+}
+
+.call-section p {
+    margin-top: 0;
+}
+
+.call-section button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    padding: 0.2rem 1rem;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    color: #E5E7EB;
 }
