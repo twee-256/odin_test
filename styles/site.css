@@ -15,8 +15,74 @@ body {
 .hero-section,
 footer {
     background-color: #1F2937;
+    color: #E5E7EB;
 }
 
+.hero-section-div {
+    width: 70%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+nav h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+nav a {
+    font-size: 18px;
+}
+
+.nav-contents {
+    display: flex;
+    gap: 1rem;
+}
+
+.hero-section-secondary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 4rem;
+    margin: 0 auto;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+.hero-text-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.hero-text-block h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+}
+
+.hero-text-block button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 0.2rem 1rem;
+    border-radius: 10px;
+}
+
+.placeholder-img {
+    width: 500px;
+    background-color: rgba(131, 127, 127, 0.785);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* random info section */
 .flexbox {
@@ -46,11 +112,11 @@ footer {
 .random-info-section {
     width: 60%;
     margin: 0 auto;
+    padding-bottom: 2rem;
 }
 
 .random-info-section h2 {
     color: #1F2937;
-    /* font-size: 36px; */
     font-weight: 900;
     text-align: center;
 }
@@ -75,6 +141,10 @@ footer {
 .blockquote-class {
     width: 50%;
     margin: 0 auto;
+}
+
+blockquote {
+    margin: 0;
 }
 
 .call-section {
@@ -111,5 +181,4 @@ footer {
 footer {
     text-align: center;
     padding: 1.5rem;
-    color: #E5E7EB;
 }
